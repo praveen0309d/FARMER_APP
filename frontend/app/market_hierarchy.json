@@ -1,0 +1,1457 @@
+{
+    "Andhra Pradesh": {
+        "Krishna": {
+            "Tiruvuru": {
+                "Rice": [
+                    "Fine",
+                    "1009 Kar"
+                ]
+            }
+        }
+    },
+    "Kerala": {
+        "Alappuzha": {
+            "Thrissur Bazaar": {
+                "Rice": [
+                    "Kuttanadan Rice",
+                    "Pokkali Rice",
+                    "Cherumani Rice",
+                    "Palakkadan Matta Rice",
+                    "Wayanad Jeerakasala",
+                    "Kaima/Jeerakasala",
+                    "Rosematta Rice",
+                    "Navara Rice"
+                ]
+            },
+            "Wayanad Rice Market": {
+                "Rice": [
+                    "Navara Rice",
+                    "Kaima/Jeerakasala",
+                    "Wayanad Jeerakasala",
+                    "Rosematta Rice",
+                    "Palakkadan Matta Rice",
+                    "Cherumani Rice",
+                    "Kuttanadan Rice",
+                    "Pokkali Rice"
+                ]
+            },
+            "Alappuzha Rice Market": {
+                "Rice": [
+                    "Wayanad Jeerakasala",
+                    "Pokkali Rice",
+                    "Kuttanadan Rice",
+                    "Palakkadan Matta Rice",
+                    "Rosematta Rice",
+                    "Cherumani Rice",
+                    "Kaima/Jeerakasala",
+                    "Navara Rice"
+                ]
+            },
+            "Palakkad Rice Market": {
+                "Rice": [
+                    "Palakkadan Matta Rice",
+                    "Kuttanadan Rice",
+                    "Cherumani Rice",
+                    "Rosematta Rice",
+                    "Kaima/Jeerakasala",
+                    "Pokkali Rice",
+                    "Wayanad Jeerakasala",
+                    "Navara Rice"
+                ]
+            }
+        },
+        "Thrissur": {
+            "Alappuzha Rice Market": {
+                "Rice": [
+                    "Wayanad Jeerakasala",
+                    "Palakkadan Matta Rice",
+                    "Kuttanadan Rice",
+                    "Rosematta Rice",
+                    "Navara Rice",
+                    "Pokkali Rice",
+                    "Kaima/Jeerakasala",
+                    "Cherumani Rice"
+                ]
+            },
+            "Palakkad Rice Market": {
+                "Rice": [
+                    "Kaima/Jeerakasala",
+                    "Palakkadan Matta Rice",
+                    "Pokkali Rice",
+                    "Cherumani Rice",
+                    "Kuttanadan Rice",
+                    "Wayanad Jeerakasala",
+                    "Navara Rice",
+                    "Rosematta Rice"
+                ]
+            },
+            "Thrissur Bazaar": {
+                "Rice": [
+                    "Rosematta Rice",
+                    "Wayanad Jeerakasala",
+                    "Pokkali Rice",
+                    "Cherumani Rice",
+                    "Palakkadan Matta Rice",
+                    "Kuttanadan Rice",
+                    "Navara Rice",
+                    "Kaima/Jeerakasala"
+                ]
+            },
+            "Wayanad Rice Market": {
+                "Rice": [
+                    "Navara Rice",
+                    "Pokkali Rice",
+                    "Kaima/Jeerakasala",
+                    "Kuttanadan Rice",
+                    "Rosematta Rice",
+                    "Wayanad Jeerakasala",
+                    "Palakkadan Matta Rice",
+                    "Cherumani Rice"
+                ]
+            }
+        },
+        "Wayanad": {
+            "Palakkad Rice Market": {
+                "Rice": [
+                    "Navara Rice",
+                    "Kuttanadan Rice",
+                    "Wayanad Jeerakasala",
+                    "Pokkali Rice",
+                    "Kaima/Jeerakasala",
+                    "Rosematta Rice",
+                    "Cherumani Rice",
+                    "Palakkadan Matta Rice"
+                ]
+            },
+            "Alappuzha Rice Market": {
+                "Rice": [
+                    "Cherumani Rice",
+                    "Palakkadan Matta Rice",
+                    "Rosematta Rice",
+                    "Wayanad Jeerakasala",
+                    "Navara Rice",
+                    "Pokkali Rice",
+                    "Kuttanadan Rice",
+                    "Kaima/Jeerakasala"
+                ]
+            },
+            "Wayanad Rice Market": {
+                "Rice": [
+                    "Wayanad Jeerakasala",
+                    "Cherumani Rice",
+                    "Palakkadan Matta Rice",
+                    "Kuttanadan Rice",
+                    "Kaima/Jeerakasala",
+                    "Rosematta Rice",
+                    "Navara Rice",
+                    "Pokkali Rice"
+                ]
+            },
+            "Thrissur Bazaar": {
+                "Rice": [
+                    "Pokkali Rice",
+                    "Wayanad Jeerakasala",
+                    "Navara Rice",
+                    "Rosematta Rice",
+                    "Kuttanadan Rice",
+                    "Palakkadan Matta Rice",
+                    "Kaima/Jeerakasala",
+                    "Cherumani Rice"
+                ]
+            }
+        },
+        "Kottayam": {
+            "Kottayam": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        },
+        "Palakkad": {
+            "Palakkad Rice Market": {
+                "Rice": [
+                    "Kaima/Jeerakasala",
+                    "Rosematta Rice",
+                    "Kuttanadan Rice",
+                    "Navara Rice",
+                    "Wayanad Jeerakasala",
+                    "Palakkadan Matta Rice",
+                    "Pokkali Rice",
+                    "Cherumani Rice"
+                ]
+            },
+            "Alappuzha Rice Market": {
+                "Rice": [
+                    "Pokkali Rice",
+                    "Palakkadan Matta Rice",
+                    "Navara Rice",
+                    "Rosematta Rice",
+                    "Wayanad Jeerakasala",
+                    "Kuttanadan Rice",
+                    "Kaima/Jeerakasala",
+                    "Cherumani Rice"
+                ]
+            },
+            "Thrissur Bazaar": {
+                "Rice": [
+                    "Rosematta Rice",
+                    "Pokkali Rice",
+                    "Palakkadan Matta Rice",
+                    "Kaima/Jeerakasala",
+                    "Navara Rice",
+                    "Cherumani Rice",
+                    "Kuttanadan Rice",
+                    "Wayanad Jeerakasala"
+                ]
+            },
+            "Wayanad Rice Market": {
+                "Rice": [
+                    "Navara Rice",
+                    "Rosematta Rice",
+                    "Palakkadan Matta Rice",
+                    "Pokkali Rice",
+                    "Wayanad Jeerakasala",
+                    "Kaima/Jeerakasala",
+                    "Cherumani Rice",
+                    "Kuttanadan Rice"
+                ]
+            }
+        }
+    },
+    "Maharashtra": {
+        "Nashik": {
+            "Sinner": {
+                "Rice": [
+                    "1009 Kar"
+                ]
+            }
+        },
+        "Raigad": {
+            "Alibagh": {
+                "Rice": [
+                    "Other"
+                ]
+            },
+            "Murud": {
+                "Rice": [
+                    "Other"
+                ]
+            },
+            "Mangaon": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        },
+        "Sangli": {
+            "Sangli": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        },
+        "Sholapur": {
+            "Solapur": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        },
+        "Thane": {
+            "Palghar": {
+                "Rice": [
+                    "1009 Kar"
+                ]
+            },
+            "Ulhasnagar": {
+                "Rice": [
+                    "Other"
+                ]
+            },
+            "Vasai": {
+                "Rice": [
+                    "1009 Kar"
+                ]
+            }
+        },
+        "Nagpur": {
+            "Nagpur": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        }
+    },
+    "Manipur": {
+        "Imphal East": {
+            "Lamlong Bazaar": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        },
+        "Imphal West": {
+            "Imphal": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        },
+        "Kakching": {
+            "Kakching Market": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        },
+        "Bishnupur": {
+            "Bishenpur": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        },
+        "Thoubal": {
+            "Thoubal": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        }
+    },
+    "Tamil Nadu": {
+        "Coimbatore": {
+            "Coimbatore Market": {
+                "Rice": [
+                    "Ponni",
+                    "Samba",
+                    "Common",
+                    "Fine",
+                    "Hybrid"
+                ]
+            }
+        },
+        "Madurai": {
+            "Madurai Market": {
+                "Rice": [
+                    "Samba",
+                    "Ponni",
+                    "Hybrid",
+                    "Fine",
+                    "Common"
+                ]
+            }
+        },
+        "Salem": {
+            "Salem Market": {
+                "Rice": [
+                    "Fine",
+                    "Hybrid",
+                    "Common",
+                    "Ponni",
+                    "Samba"
+                ]
+            }
+        },
+        "Thanjavur": {
+            "Thanjavur Market": {
+                "Rice": [
+                    "Samba",
+                    "Fine",
+                    "Hybrid",
+                    "Ponni",
+                    "Common"
+                ]
+            }
+        },
+        "Tiruchirappalli": {
+            "Trichy Market": {
+                "Rice": [
+                    "Hybrid",
+                    "Ponni",
+                    "Common",
+                    "Samba",
+                    "Fine"
+                ]
+            }
+        },
+        "Erode": {
+            "Erode Market": {
+                "Rice": [
+                    "Ponni",
+                    "Fine",
+                    "Common",
+                    "Samba",
+                    "Hybrid"
+                ]
+            }
+        },
+        "Kancheepuram": {
+            "Kancheepuram Market": {
+                "Rice": [
+                    "Samba",
+                    "Hybrid",
+                    "Fine",
+                    "Common",
+                    "Ponni"
+                ]
+            }
+        },
+        "Nagapattinam": {
+            "Nagapattinam Market": {
+                "Rice": [
+                    "Ponni",
+                    "Hybrid",
+                    "Common",
+                    "Samba",
+                    "Fine"
+                ]
+            }
+        },
+        "Tuticorin": {
+            "Tuticorin Market": {
+                "Rice": [
+                    "Fine",
+                    "Ponni",
+                    "Common",
+                    "Hybrid",
+                    "Samba"
+                ]
+            }
+        },
+        "Vellore": {
+            "Vellore Market": {
+                "Rice": [
+                    "Fine",
+                    "Common",
+                    "Samba",
+                    "Ponni",
+                    "Hybrid"
+                ]
+            }
+        },
+        "Perambalur": {
+            "Perambalur Market": {
+                "Rice": [
+                    "Fine",
+                    "Samba",
+                    "Hybrid",
+                    "Ponni",
+                    "Common"
+                ]
+            }
+        },
+        "Pudukottai": {
+            "Pudukottai Market": {
+                "Rice": [
+                    "Samba",
+                    "Ponni",
+                    "Common",
+                    "Fine",
+                    "Hybrid"
+                ]
+            }
+        },
+        "Ramanathapuram": {
+            "Ramanathapuram Market": {
+                "Rice": [
+                    "Samba",
+                    "Hybrid",
+                    "Ponni",
+                    "Common",
+                    "Fine"
+                ]
+            }
+        },
+        "Tenkasi": {
+            "Tenkasi Market": {
+                "Rice": [
+                    "Samba",
+                    "Hybrid",
+                    "Common",
+                    "Fine",
+                    "Ponni"
+                ]
+            }
+        },
+        "Thiruvarur": {
+            "Thiruvarur Market": {
+                "Rice": [
+                    "Ponni",
+                    "Common",
+                    "Fine",
+                    "Samba",
+                    "Hybrid"
+                ]
+            }
+        }
+    },
+    "Tripura": {
+        "Dhalai": {
+            "Masli": {
+                "Rice": [
+                    "1009 Kar"
+                ]
+            }
+        },
+        "Khowai": {
+            "Teliamura": {
+                "Rice": [
+                    "Masuri"
+                ]
+            }
+        },
+        "North Tripura": {
+            "Dasda": {
+                "Rice": [
+                    "Masuri"
+                ]
+            }
+        },
+        "Sepahijala": {
+            "Jumpuijala": {
+                "Rice": [
+                    "Other"
+                ]
+            },
+            "Melaghar": {
+                "Rice": [
+                    "Masuri",
+                    "Fine"
+                ]
+            }
+        },
+        "Gomati": {
+            "Nutanbazar": {
+                "Rice": [
+                    "Masuri"
+                ]
+            }
+        }
+    },
+    "Uttar Pradesh": {
+        "Agra": {
+            "Achnera": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Agra": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Aligarh": {
+            "Aligarh": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Ambedkarnagar": {
+            "Akbarpur": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Amethi": {
+            "Sultanpur": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Auraiya": {
+            "Auraiya": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Achalda": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Ayodhya": {
+            "Faizabad": {
+                "Rice": [
+                    "Coarse"
+                ]
+            }
+        },
+        "Baghpat": {
+            "Baraut": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Ballia": {
+            "Ballia": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Vilthararoad": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Rasda": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Balrampur": {
+            "Panchpedwa": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Balrampur": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Tulsipur": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Bareilly": {
+            "Bareilly": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Basti": {
+            "Basti": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Deoria": {
+            "Devariya": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Farukhabad": {
+            "Mohamadabad": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Farukhabad": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Fatehpur": {
+            "Fatehpur": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Khaga": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Kishunpur": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Gautam Budh Nagar": {
+            "Dankaur": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Ghaziabad": {
+            "Hapur": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Muradnagar": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Ghazipur": {
+            "Gazipur": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Jangipura": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Gorakhpur": {
+            "Gorakhpur": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Chorichora": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Hardoi": {
+            "Hardoi": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Madhoganj": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Sandila": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Sandi": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Jaunpur": {
+            "Jaunpur": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Mugrabaadshahpur": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Shahganj": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Jhansi": {
+            "Gurusarai": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Mauranipur": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Moth": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Kannuj": {
+            "Chhibramau": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Kannauj": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Kasganj": {
+            "Kasganj": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Lakhimpur": {
+            "Golagokarnath": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Lakhimpur": {
+                "Rice": [
+                    "Coarse"
+                ]
+            }
+        },
+        "Lalitpur": {
+            "Lalitpur": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Lucknow": {
+            "Lucknow": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Mahoba": {
+            "Mahoba": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Mainpuri": {
+            "Ghiraur": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Mainpuri": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Mathura": {
+            "Kosikalan": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Mathura": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Mau(Maunathbhanjan)": {
+            "Doharighat": {
+                "Rice": [
+                    "1009 Kar"
+                ]
+            },
+            "Kopaganj": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Mirzapur": {
+            "Mirzapur": {
+                "Rice": [
+                    "Coarse"
+                ]
+            }
+        },
+        "Pillibhit": {
+            "Pilibhit": {
+                "Rice": [
+                    "Coarse"
+                ]
+            },
+            "Puranpur": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Pratapgarh": {
+            "Pratapgarh": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Prayagraj": {
+            "Allahabad": {
+                "Rice": [
+                    "Basmati U.P. (New)",
+                    "Common"
+                ]
+            }
+        },
+        "Raebarelli": {
+            "Bachranwa": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Lalganj": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Raibareilly": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Salon": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Jayas": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Shahjahanpur": {
+            "Shahjahanpur": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Shamli": {
+            "Shamli": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Siddharth Nagar": {
+            "Sahiyapur": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Naugarh": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Sitapur": {
+            "Sitapur": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Viswan": {
+                "Rice": [
+                    "Coarse"
+                ]
+            }
+        },
+        "Unnao": {
+            "Unnao": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Bangarmau": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Amroha": {
+            "Amroha": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Azamgarh": {
+            "Azamgarh": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Badaun": {
+            "Badayoun": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Wazirganj": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Bahraich": {
+            "Naanpara": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Bijnor": {
+            "Bijnaur": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Bulandshahar": {
+            "Buland Shahr": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Khurja": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Chandauli": {
+            "Chandoli": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Etah": {
+            "Etah": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Etawah": {
+            "Bharthna": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Etawah": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Firozabad": {
+            "Firozabad": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Tundla": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Gonda": {
+            "Gonda": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Hamirpur": {
+            "Bharuasumerpur": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Kanpur": {
+            "Choubepur": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Kanpur(Grain)": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Uttaripura": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Kanpur Dehat": {
+            "Pukharayan": {
+                "Rice": [
+                    "III"
+                ]
+            },
+            "Rura": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Kaushambi": {
+            "Manjhanpur": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Khiri (Lakhimpur)": {
+            "Mohammdi": {
+                "Rice": [
+                    "1009 Kar"
+                ]
+            }
+        },
+        "Maharajganj": {
+            "Anandnagar": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Rampur": {
+            "Rampur": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Sambhal": {
+            "Muradabad": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Sonbhadra": {
+            "Robertsganj": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        },
+        "Varanasi": {
+            "Varanasi": {
+                "Rice": [
+                    "III"
+                ]
+            }
+        }
+    },
+    "Uttrakhand": {
+        "UdhamSinghNagar": {
+            "Bazpur": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Gadarpur": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        }
+    },
+    "West Bengal": {
+        "Bankura": {
+            "Bishnupur(Bankura)": {
+                "Rice": [
+                    "Common",
+                    "Fine"
+                ]
+            },
+            "Indus(Bankura Sadar)": {
+                "Rice": [
+                    "Fine"
+                ]
+            },
+            "Bankura Sadar": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Khatra": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Birbhum": {
+            "Birbhum": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Sainthia": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Rampurhat": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Bolpur": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Hooghly": {
+            "Sheoraphuly": {
+                "Rice": [
+                    "Sona Mansoori Non Basmati"
+                ]
+            },
+            "Kalipur": {
+                "Rice": [
+                    "Fine",
+                    "Common"
+                ]
+            },
+            "Champadanga": {
+                "Rice": [
+                    "Fine"
+                ]
+            },
+            "Pandua": {
+                "Rice": [
+                    "Fine"
+                ]
+            }
+        },
+        "Howrah": {
+            "Ramkrishanpur(Howrah)": {
+                "Rice": [
+                    "Other",
+                    "Sona Mansoori Non Basmati"
+                ]
+            },
+            "Uluberia": {
+                "Rice": [
+                    "Other",
+                    "Sona Mansoori Non Basmati"
+                ]
+            }
+        },
+        "Jhargram": {
+            "Jhargram": {
+                "Rice": [
+                    "Common",
+                    "Fine",
+                    "Super Fine"
+                ]
+            }
+        },
+        "Murshidabad": {
+            "Jangipur": {
+                "Rice": [
+                    "Fine"
+                ]
+            },
+            "Kandi": {
+                "Rice": [
+                    "Common"
+                ]
+            },
+            "Jiaganj": {
+                "Rice": [
+                    "Fine"
+                ]
+            },
+            "Kasimbazar": {
+                "Rice": [
+                    "Other"
+                ]
+            },
+            "Lalbagh": {
+                "Rice": [
+                    "Other"
+                ]
+            },
+            "Beldanga": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        },
+        "Nadia": {
+            "Kalyani": {
+                "Rice": [
+                    "Sona",
+                    "Fine",
+                    "Other"
+                ]
+            },
+            "Nadia": {
+                "Rice": [
+                    "Fine",
+                    "Common"
+                ]
+            },
+            "Bethuadahari": {
+                "Rice": [
+                    "Fine"
+                ]
+            },
+            "Karimpur": {
+                "Rice": [
+                    "Other"
+                ]
+            },
+            "Ranaghat": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        },
+        "Purba Bardhaman": {
+            "Burdwan": {
+                "Rice": [
+                    "Fine",
+                    "Common"
+                ]
+            },
+            "Kalna": {
+                "Rice": [
+                    "Other",
+                    "Fine"
+                ]
+            },
+            "Memari": {
+                "Rice": [
+                    "Fine",
+                    "Common"
+                ]
+            },
+            "Guskara": {
+                "Rice": [
+                    "Fine",
+                    "Common"
+                ]
+            },
+            "Katwa": {
+                "Rice": [
+                    "Common",
+                    "Fine"
+                ]
+            }
+        },
+        "Sounth 24 Parganas": {
+            "Baruipur(Canning)": {
+                "Rice": [
+                    "Super Fine",
+                    "Common"
+                ]
+            },
+            "Diamond Harbour(South 24-pgs)": {
+                "Rice": [
+                    "Common",
+                    "Super Fine"
+                ]
+            }
+        },
+        "Uttar Dinajpur": {
+            "Kaliaganj": {
+                "Rice": [
+                    "Fine"
+                ]
+            },
+            "Islampur": {
+                "Rice": [
+                    "Fine"
+                ]
+            }
+        },
+        "Dakshin Dinajpur": {
+            "Balurghat": {
+                "Rice": [
+                    "Common"
+                ]
+            }
+        },
+        "Darjeeling": {
+            "Siliguri": {
+                "Rice": [
+                    "Fine(Basmati)"
+                ]
+            }
+        },
+        "Medinipur(E)": {
+            "Tamluk (Medinipur E)": {
+                "Rice": [
+                    "Fine",
+                    "Common",
+                    "Com"
+                ]
+            },
+            "Kolaghat": {
+                "Rice": [
+                    "Common",
+                    "Fine"
+                ]
+            }
+        },
+        "Paschim Bardhaman": {
+            "Asansol": {
+                "Rice": [
+                    "Fine"
+                ]
+            },
+            "Durgapur": {
+                "Rice": [
+                    "Fine",
+                    "Other"
+                ]
+            }
+        },
+        "Puruliya": {
+            "Purulia": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        }
+    },
+    "Karnataka": {
+        "Davangere": {
+            "Davangere": {
+                "Rice": [
+                    "Medium"
+                ]
+            }
+        },
+        "Koppal": {
+            "Gangavathi": {
+                "Rice": [
+                    "Other"
+                ]
+            }
+        },
+        "Shimoga": {
+            "Shimoga": {
+                "Rice": [
+                    "Fine",
+                    "Coarse"
+                ]
+            }
+        }
+    }
+}

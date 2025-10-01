@@ -1,0 +1,280 @@
+{
+  "tamilnadu": {
+    "en": [
+      {
+        "id": 1,
+        "name": "Rice",
+        "seasons": ["Kuruvai", "Samba", "Thaladi"],
+        "planting": "June-July (Kuruvai), Aug-Sept (Samba), Nov-Dec (Thaladi)",
+        "harvesting": "Sep-Oct (Kuruvai), Jan-Feb (Samba), Mar-Apr (Thaladi)",
+        "description": "Staple food of Tamil Nadu, grown in three seasons."
+      },
+      {
+        "id": 2,
+        "name": "Millets",
+        "seasons": ["Samba"],
+        "planting": "September-October",
+        "harvesting": "January-February",
+        "description": "Nutritious drought-resistant crops."
+      },
+      {
+        "id": 3,
+        "name": "Sugarcane",
+        "seasons": ["Year-round with irrigation"],
+        "planting": "January-March or October-December",
+        "harvesting": "12-18 months after planting",
+        "description": "Major cash crop in Tamil Nadu, used for sugar production."
+      },
+      {
+        "id": 4,
+        "name": "Groundnut",
+        "seasons": ["Kharif", "Rabi"],
+        "planting": "June-July (Kharif), October-November (Rabi)",
+        "harvesting": "October-November (Kharif), February-March (Rabi)",
+        "description": "Important oilseed crop grown across the state."
+      },
+      {
+        "id": 5,
+        "name": "Cotton",
+        "seasons": ["Kharif"],
+        "planting": "September-October",
+        "harvesting": "January-March",
+        "description": "Commercial crop mainly grown in western districts."
+      }
+    ],
+"ta": [
+  {
+    "id": 1,
+    "name": "அரிசி",
+    "seasons": ["குருவாய்", "சாம்பா", "தாலாடி"],
+    "planting": "ஜூன்-ஜூலை (குருவாய்), ஆகஸ்ட்-செப்டம்பர் (சாம்பா), நவம்பர்-டிசம்பர் (தாலாடி)",
+    "harvesting": "செப்டம்பர்-அக்டோபர் (குருவாய்), ஜனவரி-பிப்ரவரி (சாம்பா), மார்ச்-ஏப்ரல் (தாலாடி)",
+    "description": "தமிழ்நாட்டின் முக்கிய உணவு, மூன்று பருவங்களில் பயிரிடப்படுகிறது."
+  },
+  {
+    "id": 2,
+    "name": "கம்பு மற்றும் கோதுமை விதைகள்",
+    "seasons": ["சாம்பா"],
+    "planting": "செப்டம்பர்-அக்டோபர்",
+    "harvesting": "ஜனவரி-பிப்ரவரி",
+    "description": "உணவுப்பொருளாக வளமான மற்றும் வறட்சிக்கு எதிரான பயிர்கள்."
+  },
+  {
+    "id": 3,
+    "name": "கரும்பு",
+    "seasons": ["நீர்ப்பாசனத்துடன் ஆண்டு முழுவதும்"],
+    "planting": "ஜனவரி-மார்ச் அல்லது அக்டோபர்-டிசம்பர்",
+    "harvesting": "பயிர் விதைக்கப்பிறகு 12-18 மாதங்களில்",
+    "description": "தமிழ்நாட்டில் முக்கிய வருமான பயிர், சர்க்கரை உற்பத்திக்கு பயன்படுத்தப்படுகிறது."
+  },
+  {
+    "id": 4,
+    "name": "நெய்வேர் விதைகள்",
+    "seasons": ["காரிஃப்", "ராபி"],
+    "planting": "ஜூன்-ஜூலை (காரிஃப்), அக்டோபர்-நவம்பர் (ராபி)",
+    "harvesting": "அக்டோபர்-நவம்பர் (காரிஃப்), பிப்ரவரி-மார்ச் (ராபி)",
+    "description": "மாநிலத்தின் பல பகுதிகளில் வளரும் முக்கிய எண்ணெய் பயிர்."
+  },
+  {
+    "id": 5,
+    "name": "பருத்தி",
+    "seasons": ["காரிஃப்"],
+    "planting": "செப்டம்பர்-அக்டோபர்",
+    "harvesting": "ஜனவரி-மார்ச்",
+    "description": "மேற்கு மாவட்டங்களில் பெரும்பாலும் வளர்க்கப்படும் வர்த்தக பயிர்."
+  }
+]
+,
+    "seasonal_calendar": {
+      "Kuruvai": {"sowing": "June-July", "harvesting": "September-October", "crops": ["Rice"]},
+      "Samba": {"sowing": "August-September", "harvesting": "January-February", "crops": ["Rice", "Millets"]},
+      "Thaladi": {"sowing": "November-December", "harvesting": "March-April", "crops": ["Rice"]},
+      "Kharif": {"sowing": "June-July", "harvesting": "October-November", "crops": ["Groundnut"]},
+      "Rabi": {"sowing": "October-November", "harvesting": "February-March", "crops": ["Groundnut"]}
+    }
+  },
+  "kerala": {
+    "en": [
+      {
+        "id": 1,
+        "name": "Rice",
+        "seasons": ["Kharif", "Rabi"],
+        "planting": "June-July (Kharif), Oct-Nov (Rabi)",
+        "harvesting": "Sep-Oct (Kharif), Jan-Feb (Rabi)",
+        "description": "Main staple food in Kerala."
+      },
+      {
+        "id": 2,
+        "name": "Rubber",
+        "seasons": ["Year-round"],
+        "planting": "May-June with onset of monsoon",
+        "harvesting": "Tapping begins after 7 years",
+        "description": "Important plantation crop in Kerala, tapped for latex."
+      },
+      {
+        "id": 3,
+        "name": "Coconut",
+        "seasons": ["Year-round"],
+        "planting": "May-June",
+        "harvesting": "Throughout the year after maturity",
+        "description": "Kerala's iconic crop, used in various forms."
+      },
+      {
+        "id": 4,
+        "name": "Black Pepper",
+        "seasons": ["Year-round"],
+        "planting": "May-June",
+        "harvesting": "December-January",
+        "description": "Kerala is known as the pepper capital of India."
+      },
+      {
+        "id": 5,
+        "name": "Tapioca",
+        "seasons": ["Year-round"],
+        "planting": "April-May or October-November",
+        "harvesting": "10-12 months after planting",
+        "description": "Important staple food crop in Kerala."
+      }
+    ],
+"ml": [
+  {
+    "id": 1,
+    "name": "അരി",
+    "seasons": ["ഖരിഫ്", "റാബി"],
+    "planting": "ജൂൺ-ജൂലൈ (ഖരിഫ്), ഒക്ടോബർ-നവംബർ (റാബി)",
+    "harvesting": "സെപ്റ്റംബർ-ഒക്ടോബർ (ഖരിഫ്), ജനുവരി-ഫെബ്രുവരി (റാബി)",
+    "description": "കേരളത്തിലെ പ്രധാന അന്നസഹായം."
+  },
+  {
+    "id": 2,
+    "name": "റബ്ബർ",
+    "seasons": ["വർഷം മുഴുവനും"],
+    "planting": "മോൺസൂൺ കാലത്ത് മേയ്-ജൂൺ",
+    "harvesting": "7 വർഷം കഴിഞ്ഞ് ടാപ്പിംഗ് ആരംഭിക്കും",
+    "description": "കേരളത്തിലെ പ്രധാന പ്ലാന്റേഷൻ വിള, ലാറ്റക്സ് ലഭിക്കാൻ ഉപയോക്തമാക്കുന്നു."
+  },
+  {
+    "id": 3,
+    "name": "തേങ്ങ",
+    "seasons": ["വർഷം മുഴുവനും"],
+    "planting": "മേയ്-ജൂൺ",
+    "harvesting": "പെരുമാറിയതിന് ശേഷം വർഷം മുഴുവനും",
+    "description": "കേരളത്തിന്റെ പ്രതീകമുള്ള വിള, വിവിധ രൂപങ്ങളിൽ ഉപയോഗിക്കുന്നു."
+  },
+  {
+    "id": 4,
+    "name": "കുരുമുളക്",
+    "seasons": ["വർഷം മുഴുവനും"],
+    "planting": "മേയ്-ജൂൺ",
+    "harvesting": "ഡിസംബർ-ജനുവരി",
+    "description": "ഇന്ത്യയിലെ മുളകിന്റെ തലസ്ഥാനമായി കേരളം അറിയപ്പെടുന്നു."
+  },
+  {
+    "id": 5,
+    "name": "മണ്ണക്കിഴങ്ങ് (തപ്പിയോക)",
+    "seasons": ["വർഷം മുഴുവനും"],
+    "planting": "ഏപ്രിൽ-മേയ് അല്ലെങ്കിൽ ഒക്ടോബർ-നവംബർ",
+    "harvesting": "തൈകൾ നട്ടതിനു ശേഷം 10-12 മാസം",
+    "description": "കേരളത്തിലെ പ്രധാന അന്നസഹായ വിള."
+  }
+]
+,
+    "seasonal_calendar": {
+      "Kharif": {"sowing": "June-July", "harvesting": "September-October", "crops": ["Rice"]},
+      "Rabi": {"sowing": "October-November", "harvesting": "January-February", "crops": ["Rice"]},
+      "Plantation": {"sowing": "May-June", "harvesting": "Year-round after maturity", "crops": ["Rubber", "Coconut", "Black Pepper"]}
+    }
+  },
+  "jharkhand": {
+    "en": [
+      {
+        "id": 1,
+        "name": "Maize",
+        "seasons": ["Kharif"],
+        "planting": "June-July",
+        "harvesting": "September-October",
+        "description": "Common cereal crop in Jharkhand."
+      },
+      {
+        "id": 2,
+        "name": "Paddy",
+        "seasons": ["Kharif"],
+        "planting": "June-July",
+        "harvesting": "October-November",
+        "description": "Main food crop grown during monsoon season."
+      },
+      {
+        "id": 3,
+        "name": "Pulses",
+        "seasons": ["Rabi"],
+        "planting": "October-November",
+        "harvesting": "February-March",
+        "description": "Important protein source, grown in winter."
+      },
+      {
+        "id": 4,
+        "name": "Oilseeds",
+        "seasons": ["Kharif", "Rabi"],
+        "planting": "June-July (Kharif), October-November (Rabi)",
+        "harvesting": "September-October (Kharif), February-March (Rabi)",
+        "description": "Includes mustard, groundnut, and sunflower."
+      },
+      {
+        "id": 5,
+        "name": "Vegetables",
+        "seasons": ["Year-round"],
+        "planting": "Throughout the year",
+        "harvesting": "Throughout the year",
+        "description": "Various seasonal vegetables grown across Jharkhand."
+      }
+    ],
+"hi": [
+  {
+    "id": 1,
+    "name": "मकई",
+    "seasons": ["खरीफ"],
+    "planting": "जून-जुलाई",
+    "harvesting": "सितंबर-अक्टूबर",
+    "description": "झारखंड में आमतौर पर उगाई जाने वाली अनाज फसल।"
+  },
+  {
+    "id": 2,
+    "name": "धान",
+    "seasons": ["खरीफ"],
+    "planting": "जून-जुलाई",
+    "harvesting": "अक्टूबर-नवंबर",
+    "description": "मानसून मौसम में उगाई जाने वाली मुख्य खाद्य फसल।"
+  },
+  {
+    "id": 3,
+    "name": "दालें",
+    "seasons": ["रबी"],
+    "planting": "अक्टूबर-नवंबर",
+    "harvesting": "फरवरी-मार्च",
+    "description": "महत्वपूर्ण प्रोटीन स्रोत, सर्दियों में उगाई जाती हैं।"
+  },
+  {
+    "id": 4,
+    "name": "तैलीय फसलें",
+    "seasons": ["खरीफ", "रबी"],
+    "planting": "जून-जुलाई (खरीफ), अक्टूबर-नवंबर (रबी)",
+    "harvesting": "सितंबर-अक्टूबर (खरीफ), फरवरी-मार्च (रबी)",
+    "description": "इसमें सरसों, मूँगफली और सूरजमुखी शामिल हैं।"
+  },
+  {
+    "id": 5,
+    "name": "सब्ज़ियाँ",
+    "seasons": ["साल भर"],
+    "planting": "साल भर",
+    "harvesting": "साल भर",
+    "description": "झारखंड में विभिन्न मौसमी सब्ज़ियाँ उगाई जाती हैं।"
+  }
+]
+,
+    "seasonal_calendar": {
+      "Kharif": {"sowing": "June-July", "harvesting": "September-November", "crops": ["Maize", "Paddy", "Oilseeds"]},
+      "Rabi": {"sowing": "October-November", "harvesting": "February-March", "crops": ["Pulses", "Oilseeds", "Vegetables"]},
+      "Zaid": {"sowing": "March-April", "harvesting": "May-June", "crops": ["Vegetables", "Pulses"]}
+    }
+  }
+}
