@@ -3,6 +3,12 @@ venv/
 # dependencies
 node_modules/
 
+# Ignore model checkpoints
+vit-paddy-disease/
+uploads/
+*.bin
+*.safetensors
+
 # Expo
 .expo/
 dist/

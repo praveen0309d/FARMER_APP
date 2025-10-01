@@ -12,7 +12,7 @@ paddy_bp = Blueprint('crop', __name__)
 
 # Model setup
 MODEL_CHECKPOINT = "google/vit-base-patch16-224-in21k"
-FINETUNED_OUTPUT_DIR = r"backend\vit-paddy-disease"
+FINETUNED_OUTPUT_DIR = r"C:\Users\prave\FARMER_APP\backend\vit-paddy-disease"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Load model + processor once

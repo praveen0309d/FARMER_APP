@@ -6,9 +6,9 @@ import joblib
 crop_bp = Blueprint('yield', __name__)
 
 # Load model and encoders
-model = joblib.load(r'backend\yieldfiels\xgboost_crop_yield_model.joblib')
-le_state = joblib.load(r'backend\yieldfiels\le_state.joblib')
-le_district = joblib.load(r'backend\yieldfiels\le_district.joblib')
+model = joblib.load(r'C:\Users\prave\FARMER_APP\backend\yieldfiels\xgboost_crop_yield_model.joblib')
+le_state = joblib.load(r'C:\Users\prave\FARMER_APP\backend\yieldfiels\le_state.joblib')
+le_district = joblib.load(r'C:\Users\prave\FARMER_APP\backend\yieldfiels\le_district.joblib')
 
 
 @crop_bp.route('/predict', methods=['POST'])

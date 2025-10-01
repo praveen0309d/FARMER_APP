@@ -7,8 +7,8 @@ from datetime import datetime
 # -----------------------------
 # Load model and encoders
 # -----------------------------
-model = joblib.load(r"backend\maket_price\lightgbm_model.pkl")
-label_encoders = joblib.load(r"backend\maket_price\label_encoders.pkl")
+model = joblib.load(r"C:\Users\prave\FARMER_APP\backend\maket_price\lightgbm_model.pkl")
+label_encoders = joblib.load(r"C:\Users\prave\FARMER_APP\backend\maket_price\label_encoders.pkl")
 
 # -----------------------------
 # Safe transform for unseen categories
