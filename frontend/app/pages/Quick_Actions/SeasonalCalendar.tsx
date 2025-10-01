@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
   View
 } from "react-native";
-import { loadAuthData } from "../../../services/AuthService";
+import { loadAuthData } from "../../../services/AuthService.ts";
 import i18n from "../../i18n";
 import seasonalData from "../../seasonaldata/seasonal.json";
 import styles from "./SeasonalCalendar.styles";

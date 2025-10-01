@@ -17,7 +17,7 @@ import {
 import getBaseUrl from "../getBaseUrl";
 import { Picker } from "@react-native-picker/picker";
 import styles from "./login.styles";
-import { saveAuthData } from "../../services/AuthService";
+import { saveAuthData } from "../../services/AuthService.ts";
 export default function Login() {
   const { t } = useTranslation();
   const [isLogin, setIsLogin] = useState(true);

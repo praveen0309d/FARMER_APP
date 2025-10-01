@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
   View
 } from "react-native";
-import { clearAuthData, loadAuthData } from "../../services/AuthService";
+import { clearAuthData, loadAuthData } from "../../services/AuthService.ts";
 import i18n from "../i18n";
 import styles from "./home.styles";
 

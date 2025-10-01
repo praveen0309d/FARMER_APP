@@ -1,7 +1,7 @@
 import { useRouter } from "expo-router";
 import React, { useEffect } from "react";
 import { ActivityIndicator, View } from "react-native";
-import { loadAuthData } from "../../services/AuthService";
+import { loadAuthData } from "../../services/AuthService.ts";
 
 export default function AuthLoading() {
   const router = useRouter();
