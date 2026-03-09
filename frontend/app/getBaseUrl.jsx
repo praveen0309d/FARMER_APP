@@ -9,7 +9,7 @@ const getBaseUrl = () => {
 
   if (Platform.OS === "android") {
     // Android Emulator only → special loopback
-    return "http://10.139.42.32:5000";
+    return "http://10.58.95.32:5000";
   }
 
   if (Platform.OS === "ios") {
@@ -18,7 +18,7 @@ const getBaseUrl = () => {
   }
 
   // Real devices (Expo Go on Android/iOS) → use your PC's LAN IP
-  return "http://10.139.42.32:5000"; // 👈 your IPv4 address
+  return "http://10.58.95.32:5000"; // 👈 your IPv4 address
   // return "http://10.81.84.32:5000"; // 👈 your IPv4 address
 };
 
