@@ -7,8 +7,9 @@ node_modules/
 vit-paddy-disease/
 uploads/
 *.bin
+*.pyc
 *.safetensors
-
+/__pycache__/
 # Expo
 .expo/
 dist/

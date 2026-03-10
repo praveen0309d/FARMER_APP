@@ -10,13 +10,15 @@ import {
   View
 } from "react-native";
 import { clearAuthData, loadAuthData } from "../../services/AuthService.ts";
-import i18n from "../i18n";
+import "../i18n";
 import styles from "./home.styles";
+import { useTranslation } from "react-i18next";
 
 const { width } = Dimensions.get("window");
 
 export default function HomeScreen() {
   const router = useRouter();
+  const { t, i18n } = useTranslation();
   const [userName, setUserName] = useState("");
   const [settingsVisible, setSettingsVisible] = useState(false);
   const [activeFeature, setActiveFeature] = useState(null);
@@ -43,48 +45,93 @@ export default function HomeScreen() {
   };
 
   const goToSeasonalCalendar = () => {
-  router.push("/pages/Quick_Actions/SeasonalCalendar");
-};
+    router.push("/pages/Quick_Actions/SeasonalCalendar");
+  };
   const irrigationTips = () => {
-  router.push("/pages/Quick_Actions/irrigationTips");
+    router.push("/pages/Quick_Actions/irrigationTips");
 
-};  
-const plantingGuide = () => {
-  router.push("/pages/Quick_Actions/plantingGuide");
-};
-const guideme = () => {
-  router.push("/pages/guideme");
-};
+  };
+  const plantingGuide = () => {
+    router.push("/pages/Quick_Actions/plantingGuide");
+  };
+  const guideme = () => {
+    router.push("/pages/guideme");
+  };
+
+  const widgets = [
+    {
+      id: 1,
+      title: "Policies",
+      icon: "shield-checkmark",
+      color: "#4CAF50",
+      action: () => router.push("/pages/policies/policies")
+    },
+    {
+      id: 2,
+      title: "Loan Guide",
+      icon: "cash",
+      color: "#2196F3",
+      action: () => router.push("/pages/loan/loan")
+    },
+    {
+      id: 3,
+      title: "Fertilizer Guide",
+      icon: "leaf",
+      color: "#FF9800",
+      action: () => router.push("/pages/fertilizer/fertilizer")
+    },
+    {
+      id: 4,
+      title: "Soil & Water",
+      icon: "water",
+      color: "#00BCD4",
+      action: () => router.push("/pages/prediction/soilWater")
+    },
+    {
+      id: 5,
+      title: "Weather Guidelines",
+      icon: "partly-sunny",
+      color: "#FFC107",
+      action: () => router.push("/pages/weather/weather")
+    },
+    {
+      id: 6,
+      title: "Transport & Export",
+      icon: "bus",
+      color: "#9C27B0",
+      action: () => router.push("/pages/transport/transport")
+    }
+  ];
 
   const features = [
     {
       id: 1,
-      title: i18n.t("GuideMe"),
-      description: i18n.t("guidemeDesc"),
+      title: t("GuideMe"),
+      description: t("guidemeDesc"),
       icon: "signpost",
       color: "#4CAF50",
       action: () => router.push("/pages/guider/guideme")
     },
     {
       id: 2,
-      title: i18n.t("uploadCropImage"),
-      description: i18n.t("uploadCropImageDesc"),
+      title: t("uploadCropImage"),
+      description: t("uploadCropImageDesc"),
       icon: "cloud-upload",
       color: "#2196F3",
       action: () => router.push("/pages/image_upload/cropimg")
     },
     {
       id: 3,
-      title: i18n.t("getCropRecommendation"),
-      description: i18n.t("getCropRecommendationDesc"),
+      title: t("getCropRecommendation"),
+      description: t("getCropRecommendationDesc"),
       icon: "spa",
       color: "#FF9800",
       action: () => router.push("/pages/yield_predict/recommendation")
     },
     {
-      id:4,
-      title: i18n.t("marketPrices"),
-      description: i18n.t("marketPricesDesc"),
+      id: 4,
+      title: t("marketPrices"),
+      description: t("marketPricesDesc"),
       icon: "attach-money",
       color: "#9C27B0",
       action: () => router.push("/pages/market_prices/marketPrices")
@@ -97,9 +144,9 @@ const guideme = () => {
       <View style={styles.header}>
         <View>
           <Text style={styles.welcomeText}>
-            {i18n.t("welcome")}, {userName || "User"}!
+            {t("welcome")}, {userName || "User"}!
           </Text>
-          <Text style={styles.subtitle}>{i18n.t("whatToDoToday")}</Text>
+          <Text style={styles.subtitle}>{t("whatToDoToday")}</Text>
         </View>
         <TouchableOpacity
           style={styles.settingsButton}
@@ -127,43 +174,45 @@ const guideme = () => {
             <MaterialIcons name="arrow-forward-ios" size={20} color="#666" />
           </TouchableOpacity>
         ))}
-        
-        {/* Statistics section */}
-        <View style={styles.statsContainer}>
-          <Text style={styles.sectionTitle}>{i18n.t("cropHealthStats")}</Text>
-          <View style={styles.statsRow}>
-            <View style={styles.statItem}>
-              <Text style={styles.statValue}>85%</Text>
-              <Text style={styles.statLabel}>{i18n.t("healthyCrops")}</Text>
-            </View>
-            <View style={styles.statItem}>
-              <Text style={styles.statValue}>12%</Text>
-              <Text style={styles.statLabel}>{i18n.t("needsAttention")}</Text>
-            </View>
-            <View style={styles.statItem}>
-              <Text style={styles.statValue}>3%</Text>
-              <Text style={styles.statLabel}>{i18n.t("diseased")}</Text>
-            </View>
-          </View>
+
+        {/* Farm Services Widgets */}
+        <Text style={styles.sectionTitle}>Farm Services</Text>
+        <View style={styles.widgetGrid}>
+          {widgets.map((widget) => (
+            <TouchableOpacity
+              key={widget.id}
+              style={styles.widgetItem}
+              onPress={widget.action}
+            >
+              <View style={[styles.widgetIconContainer, { backgroundColor: `${widget.color}15` }]}>
+                <Ionicons name={widget.icon as any} size={24} color={widget.color} />
+              </View>
+              <Text style={styles.widgetText} numberOfLines={2}>
+                {widget.title}
+              </Text>
+            </TouchableOpacity>
+          ))}
         </View>
-        
+
         {/* Quick actions */}
-        <Text style={styles.sectionTitle}>{i18n.t("quickActions")}</Text>
+        <Text style={styles.sectionTitle}>{t("quickActions")}</Text>
         <View style={styles.quickActions}>
-          <TouchableOpacity style={styles.quickAction}  onPress={plantingGuide}>
+          <TouchableOpacity style={styles.quickAction} onPress={plantingGuide}>
             <FontAwesome5 name="seedling" size={20} color="#4CAF50" />
-            <Text style={styles.quickActionText}>{i18n.t("plantingGuide")}</Text>
+            <Text style={styles.quickActionText}>{t("plantingGuide")}</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.quickAction} onPress={irrigationTips}>
             <Ionicons name="water" size={20} color="#2196F3" />
-            <Text style={styles.quickActionText}>{i18n.t("irrigationTips")}</Text>
+            <Text style={styles.quickActionText}>{t("irrigationTips")}</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.quickAction} onPress={goToSeasonalCalendar}>
             <FontAwesome5 name="calendar-alt" size={20} color="#FF9800" />
-            <Text style={styles.quickActionText}>{i18n.t("seasonalCalendar")}</Text>
+            <Text style={styles.quickActionText}>{t("seasonalCalendar")}</Text>
           </TouchableOpacity>
         </View>
-            </ScrollView>
+
+
+      </ScrollView>
 
 
 
@@ -177,13 +226,13 @@ const guideme = () => {
         <View style={styles.modalOverlay}>
           <View style={styles.modalContent}>
             <View style={styles.modalHeader}>
-              <Text style={styles.modalTitle}>{i18n.t("settings")}</Text>
+              <Text style={styles.modalTitle}>{t("settings")}</Text>
               <TouchableOpacity onPress={() => setSettingsVisible(false)}>
                 <Ionicons name="close" size={24} color="#000" />
               </TouchableOpacity>
             </View>
-            
-            <Text style={styles.modalSectionTitle}>{i18n.t("language")}</Text>
+
+            <Text style={styles.modalSectionTitle}>{t("language")}</Text>
             <View style={styles.languageOptions}>
               <TouchableOpacity
                 onPress={() => handleChangeLanguage("en")}
@@ -210,12 +259,12 @@ const guideme = () => {
                 <Text>മലയാളം</Text>
               </TouchableOpacity>
             </View>
-            
+
             <TouchableOpacity
               onPress={handleLogout}
               style={styles.logoutButton}
             >
-              <Text style={styles.logoutText}>{i18n.t("logout")}</Text>
+              <Text style={styles.logoutText}>{t("logout")}</Text>
             </TouchableOpacity>
           </View>
         </View>

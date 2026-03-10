@@ -19,7 +19,7 @@ export default function RootLayout() {
 
 
   return (
-    <Stack>
+    <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" options={{ headerShown: false }} />
       <Stack.Screen name="pages/langu" options={{ headerShown: false }} />
       <Stack.Screen name="pages/login" options={{ headerShown: false }} />
@@ -33,6 +33,7 @@ export default function RootLayout() {
       {/* <Stack.Screen name="pages/voice" options={{ headerShown: false }} /> */}
       <Stack.Screen name="pages/yield_predict/recommendation" options={{ headerShown: false }} />
       <Stack.Screen name="pages/market_prices/marketPrices" options={{ headerShown: false }} />
+
       <Stack.Screen
         name="pages/HomeScreen"
        options={{ headerShown: false }}
